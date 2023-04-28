@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #19283f;
+}
+.navbar .container .navbar-brand {
+  color: white;
+}
+.navbar .container .link-menu ul li a {
+  color: white;
+}
+.navbar .container .link-menu ul li a:hover {
+  color: black;
+}
+.navbar .container .link-menu form .btn:hover {
+  background-color: black;
+}
+.navbar .container .navbar-toggler .burger-menu {
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.navbar .container .navbar-toggler .burger-menu span {
+  width: 100%;
+  margin-bottom: 3px;
+  background-color: #eee;
+  border-radius: 10px;
+  height: 3px;
+}
+.navbar .container .navbar-toggler .burger-menu span:nth-child(2) {
+  width: 50%;
+  margin-left: auto;
+}
+.navbar .container .navbar-toggler .burger-menu:hover span:nth-child(2) {
+  transition: all 0.6s;
+  width: 100%;
+}
+
+.landing {
+  background-color: #19283f;
+  min-height: calc(100vh - 72px);
+}
+.landing .btn:hover {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */

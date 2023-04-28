@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bondi</title>
+</head>
+<body>
+    <!-- start header  -->
+    <nav class="navbar navbar-expand-lg" id="header" data-aos="fade-down">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-aos="zoom-in-down">H.A</a>
+            <button class="navbar-toggler  border-white" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse link-menu" id="main">
+                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0" data-aos="fade-left">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#haeder">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search" data-aos="fade-right">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn border-white text-white" type="submit">
+                        Login
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- end header  -->
+
+
+    <!-- start landing  -->
+    <div id="landing" class="landing d-flex justify-content-center align-items-center" data-aos="zoom-in-up">
+        <div class="text-center text-white">
+            <h1 class="fw-bold">hesham ali world</h1>
+            <p class="fs-5 opacity-75 mb-4">we makes a frontend and backend to websites</p>
+            <button class="btn border-white text-white" type="submit">get start</button>
+        </div>
+    </div>
+    <!-- end landing  -->
+
+
+    <!-- start about me  -->
+    <div data-aos="fade-up" class="about-me pt-5 pb-5" id="about">
+        <div class="container">
+            <div class="text-center mb-3" data-aos="fade-down">
+                <div class="main-title">
+                    <h2 class="border w-50 ms-auto me-auto">about me</h2>
+                </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="col-sm d-flex align-items-center justify-content-center">
+                    <p class="fw-bold fs-5 ">Iam a hesham ali , frontend developer . I have a background in computer science and mathematics , and I have a strong interest in the intersection of technology and art.</p>
+                </div>
+                <div class="col-sm" data-aos="fade-down">
+                    <img style="width:100% ;" src="home-main.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about me  -->
+    
+
+
+    <!-- start portfolio  -->
+    <div data-aos="fade-down" class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="text-center mb-3" data-aos="fade-down">
+                <div class="main-title">
+                    <h2 class="border w-50 ms-auto me-auto">portfolio</h2>
+                </div>
+            </div>
+            <div class="row mt-5 gap-4">
+                <div class="col-sm border"data-aos="fade-down">
+                    <div class="text-center mb-3">
+                        <div class="main-title">
+                            <h2 class="border w-25 ms-auto me-auto mb-4 mt-4">skills</h2>
+                        </div>
+                    </div>
+                    <div class="name-skill align-items-center d-flex justify-content-between">
+                        <h5>HTML</h5>
+                        <h5>95%</h5>
+                    </div>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="name-skill align-items-center d-flex justify-content-between">
+                        <h5>css</h5>
+                        <h5>90%</h5>
+                    </div>
+                    <div class="progress mb-3">
+                      <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="name-skill align-items-center d-flex justify-content-between">
+                        <h5>java script</h5>
+                        <h5>60%</h5>
+                    </div>
+                    <div class="progress mb-3">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="name-skill align-items-center d-flex justify-content-between">
+                        <h5>bootstrap</h5>
+                        <h5>80%</h5>
+                    </div>
+                    <div class="progress mb-3">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="name-skill align-items-center d-flex justify-content-between">
+                        <h5>command line</h5>
+                        <h5>70%</h5>
+                    </div>
+                    <div class="progress mb-3">
+                      <div class="progress-bar bg-dark" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="name-skill align-items-center d-flex justify-content-between">
+                        <h5>git & github</h5>
+                        <h5>75%</h5>
+                    </div>
+                    <div class="progress mb-3">
+                      <div class="progress-bar"  role="progressbar" style="width: 75%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="col-sm border" data-aos="fade-up">
+                    <div class="text-center mb-3">
+                        <div class="main-title">
+                            <h2 class="border w-25 ms-auto me-auto mb-4 mt-4">project</h2>
+                        </div>
+                    </div>
+                    <ol>
+                        <li>
+                            <a href="https://heshamalifrontend.github.io/a-long-design/main.html" target="_blank">the first design</a>
+                        </li>
+                        <li>
+                            <a href="https://heshamalifrontend.github.io/my-design/main.html" target="_blank">the secound desgin</a>
+                        </li>
+                    </ol>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- end portfolio  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- start contact  -->
+  <div class="contact mt-5 mb-3" id="contact">
+    <div class="container">
+        <div class="text-center mb-3" data-aos="fade-up">
+            <div class="main-title">
+                <h2 class="border w-50 ms-auto me-auto">contact</h2>
+            </div>
+        </div>
+        <div class="form-test">
+            <div class="container">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div  class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        
+                        <div  class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">@example.com</span>
+                        </div>
+                        
+                        <label for="basic-url" class="form-label">Your vanity URL</label>
+                        <div  class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
+                        
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                        
+                        <div  class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                        </div>
+                        
+                        <div  class="input-group">
+                            <span class="input-group-text">With textarea</span>
+                            <textarea class="form-control" aria-label="With textarea"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer mt-3">
+                    <button  type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button  type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </div>
+    </div>
+  </div>
+  <!-- end contact  -->
+
+
+
+    <!-- start footer  -->
+    <div data-aos="fade-up" class="footer bg-dark text-white text-center pt-5 pb-2 mt-5">
+        <div class="container">
+            <h1>hesham world.com</h1>
+            <div class="footer-links">
+                <ul class="row text-center w-50 me-auto ms-auto" style="list-style:none;">
+                    <li class="col">
+                        <a href="" class="me-3 fs-4">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="col">
+                        <a href="" class="me-3 fs-4">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="col">
+                        <a href="" class="me-3 fs-4">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="col">
+                        <a href="" class="me-3 fs-4">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="mt-5">copyright &#169;2022 all rights reserved. i this template is made with &#8482; by <a href="#">hesahm ali</a></p>
+        </div>
+    </div>
+    <!-- end footer  -->
+
+
+
+
+    <!-- script  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
